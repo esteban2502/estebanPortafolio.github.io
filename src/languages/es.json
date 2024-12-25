@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Juan Esteban Buritica Garcia",
-      "label": "Desarrollador de Software",
+      "label": "Desarrollador Backend",
       "email": "john@gmail.com",
       "img" : "../public/images/fotoPortafolioRecortada.png",
       "url": "https://johndoe.com",
@@ -19,6 +19,15 @@
 
     ]
     },
+    
+    "navBar" : {
+      "home" : "Inicio",
+      "experience" : "Experiencia",
+      "projects" : "Proyectos",
+      "contact" : "Contacto"   
+    }
+
+    ,
     "work": [{
       "name": "Company",
       "position": "President",
