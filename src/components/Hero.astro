@@ -1,6 +1,6 @@
 ---
 import {basics} from '../languages/es.json';
-const {name,label, img,summary } = basics;
+const {name,label, img,summary,profiles } = basics;
 
 ---
 
@@ -9,11 +9,11 @@ const {name,label, img,summary } = basics;
 		<div class="row">
 
 
-            <div class="col-md-6 col-sm-12 order-md-2 order-sm-1 ps-4" style="max-height: 450px;">
+            <div class="col-md-6 col-sm-12 order-md-2 order-sm-1 ps-4 pt-5" style="max-height: 450px;">
 				<img class="col-12 center" src={img} style="object-fit: contain; height: 100%;" alt="">
 			</div>
 
-			<div class="col-md-6 order-sm-2 order-md-1 px-5  ">
+			<div class="col-md-6 order-sm-2 order-md-1 px-5 pt-lg-5 ">
 				<h3 class="pt-md-5 mt-5 ">{name} <br>
                     <strong style="color: ;">{label}</strong>
                 </h3>
@@ -22,9 +22,9 @@ const {name,label, img,summary } = basics;
                 </p>
 
                 <div class="pt-2">
-                    <a href=""> <i class="bi bi-github fs-4  pe-3"></i></a>
-                    <a href=""><i class="bi bi-linkedin fs-4 pe-3"></i></a>
-                    <a href=""><i class="bi bi-envelope fs-4"></i></a>
+                    <a class="socialM" href=""> <i class="bi bi-github fs-4  pe-3"></i></a>
+                    <a class="socialM" href={profiles[0].url} target="_blank"><i class="bi bi-linkedin fs-4 pe-3"></i></a>
+                    <a class="socialM" href=""><i class="bi bi-envelope fs-4"></i></a>
                 </div>
 
 			</div>
@@ -48,7 +48,14 @@ const {name,label, img,summary } = basics;
         color: var(--strongerText);
     }
 
-    
+    .container{
+        min-height: 100vh;
+    }
 
+    .socialM:hover{
+    
+        opacity: .8;
+    
+    }
     
 </style>

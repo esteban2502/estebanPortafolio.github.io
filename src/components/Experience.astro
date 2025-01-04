@@ -1,3 +1,87 @@
-<section>
+---
+import {work} from '../languages/es.json';
+const {name ,position, date,summary} = work[0];
+const {name : name1,position : position1, date : date1,summary : summary1} = work[1];
+
+
+
+---
+<section class="container px-5">
+    <h3 class="mb-4">Experiencia</h3>
+    
+    <div class="card mb-4">
+        <h5>{name}</h5>
+        <p class="small secondary m-0">{position}</p>
+        <p class="small secondary mb-1">{date}</p>
+        <p>{summary}</p>
+    </div>
+
+
+    <div class="card mb-4">
+        <h5>{name1}</h5>
+        <p class="small secondary m-0">{position1}</p>
+        <p class="small secondary mb-1">{date1}</p>
+        <p>{summary1}</p>
+        <div class="d-flex gap-4">
+            <a class="btns" href="">Git Hub</a>
+            <a class="btns" href="">Linkedin</a>
+        </div>
+       
+    </div>
+
+
+    
+
+  
     
 </section>
+
+
+<style>
+
+    .secondary{
+        color : var(--secondaryText);
+    }
+
+    .card{
+        border-radius: 15px;
+        border: 1px solid var(--strongerText);
+        background-color: var(--cardBg);
+        padding: 20px;
+        transition: .2s;
+        
+    }
+
+    .card:hover{
+        scale: 1.01;
+
+    }
+
+
+    .card:hover{
+
+    }
+
+    h5,h3{
+        color: var(--strongerText);
+    }
+
+    p{
+        color: var(--mainText);
+    }
+
+    .btns{
+        height: 36px;
+        padding: 5px;
+        width: 126px;
+        border-radius: 15px;
+        background-color: var(--strongerText);
+        text-align: center;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .btns:hover{
+        opacity: .8;
+    }
+</style>

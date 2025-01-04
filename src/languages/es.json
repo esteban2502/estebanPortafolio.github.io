@@ -4,16 +4,11 @@
       "label": "Desarrollador Backend",
       "email": "john@gmail.com",
       "img" : "../public/images/fotoPortafolioRecortada.png",
-      "url": "https://johndoe.com",
-      "summary": "Desarrollador de software con experiencia en Java, Spring Boot y bases de datos, especializado en el desarrollo de aplicaciones web y servicios REST para la gestión de datos y procesos.",
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      },
+      "summary": "Desarrollador de software con experiencia en Java, Spring Boot y bases de datos, especializado en el desarrollo de aplicaciones web y servicios REST.",
+      "profiles": [
       {
         "network" : "Linkedin",
-        "url" : ""
+        "url" : "https://www.linkedin.com/in/juan-esteban-buritica-garcia/"
        }
     
 
@@ -23,21 +18,21 @@
     "navBar" : {
       "home" : "Inicio",
       "experience" : "Experiencia",
-      "projects" : "Proyectos",
+      "education" : "Educacion",
       "contact" : "Contacto"   
     }
 
     ,
     "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Semillero Industrias 4.0 UCP",
+      "position": "Desarrollador Full Stack",
+      "date" : "Abril 2024-Actual ",
+      "summary": "Estoy Liderando el proyecto “Plataforma web para la gestión de pruebas psicológicas MoCA dirigida al programa de Psicología de la Universidad Católica de Pereira.” Mi rol incluye la identificación de requerimientos, diseño de la plataforma y desarrollo utilizando Java y Spring Boot 3. Estoy implementando Spring Data MongoDB para la persistencia de datos en una base de datos NoSQL y utilizando Maven como gestor de proyectos para la administración de dependencias."
+    },{
+      "name" : "Proyecto Personal" ,
+      "position" : "Desarrollador Full Stack" ,
+      "date": "Septiembre 2024 - Octubre 2024",
+      "summary" : "Desarrollé una plataforma web para la gestión de proyectos personales utilizando Spring Boot 3, empleando el ORM JPA para interactuar con una base de datos relacional en MySQL. Utilicé el módulo Spring Security del framework de Spring junto con JSON Web Token (JWT) para la autenticación y seguridad. El servicio REST es consumido por un cliente en HTML5, Bootstrap y JavaScript, integrando la librería Chart.js para graficar información obtenida de varios endpoints de la API." 
     }],
     "volunteer": [{
       "organization": "Organization",
