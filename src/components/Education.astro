@@ -1,0 +1,72 @@
+---
+import {education} from '../languages/es.json';
+const {institution,area, date} = education[0];
+const {institution : institution1 ,area : area1, date : date1} = education[1];
+const {institution : institution2 ,area : area2, date : date2} = education[2];
+const {institution : institution3 ,area : area3, date : date3} = education[3];
+const {institution : institution4 ,area : area4, date : date4} = education[4];
+
+---
+<section class="container px-5" id="education">
+    <h3 class="mb-3">Educación</h3>
+    <section class="d-md-flex gap-5 justify-content-center">
+        <article class="infoEducation">
+            <h5 class="infoM m-0">{area}</h5>
+            <p class="secondary m-0">{institution}</p>
+            <p class="secondary mb-3">{date}</p>
+        </article>
+
+        <article class="infoEducation">
+            <h5 class="mb-1 infoM m-0">{area4}</h5>
+            <p class="mb-1 secondary m-0">{institution4}</p>
+            <p class="mb-1 secondary mb-3">{date4}</p>
+        </article>
+        
+    
+        <article class="infoEducation">
+            <h5 class="infoM m-0">{area1}</h5>
+            <p class="secondary m-0">{institution1}</p>
+            <p class="secondary mb-3">{date1}</p>
+        </article>
+    
+        <article class="infoEducation">
+            <h5 class="mb-1 infoM m-0">{area2}</h5>
+            <p class="mb-1 secondary m-0">{institution2}</p>
+            <p class="mb-1 secondary mb-3">{date2}</p>
+        </article>
+
+
+
+
+        <article class="infoEducation">
+            <h5 class="mb-1 infoM m-0">{area3}</h5>
+            <p class="mb-1 secondary m-0">{institution3}</p>
+            <p class="mb-1 secondary mb-3">{date3}</p>
+        </article>
+
+        
+        
+    </section>
+   
+    
+</section>
+
+<style>
+
+    .infoEducation{
+        font-size: 14px;
+        
+    }
+
+    .infoEducation h5{
+        font-size: 16px;
+    }
+
+    h3, .infoM{
+        color: var(--strongerText);
+    }
+
+    .secondary{
+        color: var(--secondaryText);
+    }
+</style>

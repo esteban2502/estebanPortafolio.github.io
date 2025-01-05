@@ -1,33 +1,48 @@
 ---
 import {work} from '../languages/es.json';
 const {name ,position, date,summary} = work[0];
-const {name : name1,position : position1, date : date1,summary : summary1} = work[1];
+const {name : name1,position : position1, date : date1,summary : summary1, info: info1} = work[1];
+const {name : name2,position : position2, date : date2,summary : summary2, info: info2} = work[2];
+
 
 
 
 ---
-<section class="container px-5">
+<section class="container px-5 mb-5" id="experience">
     <h3 class="mb-4">Experiencia</h3>
     
-    <div class="card mb-4">
+    <article class="card mb-4">
         <h5>{name}</h5>
         <p class="small secondary m-0">{position}</p>
         <p class="small secondary mb-1">{date}</p>
         <p>{summary}</p>
-    </div>
+    </article>
 
 
-    <div class="card mb-4">
+    <article class="card mb-4">
         <h5>{name1}</h5>
         <p class="small secondary m-0">{position1}</p>
         <p class="small secondary mb-1">{date1}</p>
         <p>{summary1}</p>
         <div class="d-flex gap-4">
-            <a class="btns" href="">Git Hub</a>
-            <a class="btns" href="">Linkedin</a>
+            <a class="btns" href={info1?.git} target="_blank"><i class="bi bi-github small"></i> Git Hub </a>
+            <a class="btns" href={info1?.linkedin} target="_blank"><i class="bi bi-linkedin small"></i> Info</a>
         </div>
        
-    </div>
+    </article>
+
+    
+    <article class="card mb-4">
+        <h5>{name2}</h5>
+        <p class="small secondary m-0">{position2}</p>
+        <p class="small secondary mb-1">{date2}</p>
+        <p>{summary2}</p>
+        <div class="d-flex gap-4">
+            <a class="btns" href={info2?.git} target="_blank"><i class="bi bi-github small"></i> Git Hub </a>
+            <a class="btns" href={info2?.linkedin} target="_blank"><i class="bi bi-linkedin small"></i> Info</a>
+        </div>
+       
+    </article>
 
 
     

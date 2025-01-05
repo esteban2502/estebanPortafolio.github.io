@@ -18,7 +18,7 @@
     "navBar" : {
       "home" : "Inicio",
       "experience" : "Experiencia",
-      "education" : "Educacion",
+      "education" : "Educación",
       "contact" : "Contacto"   
     }
 
@@ -27,36 +27,54 @@
       "name": "Semillero Industrias 4.0 UCP",
       "position": "Desarrollador Full Stack",
       "date" : "Abril 2024-Actual ",
-      "summary": "Estoy Liderando el proyecto “Plataforma web para la gestión de pruebas psicológicas MoCA dirigida al programa de Psicología de la Universidad Católica de Pereira.” Mi rol incluye la identificación de requerimientos, diseño de la plataforma y desarrollo utilizando Java y Spring Boot 3. Estoy implementando Spring Data MongoDB para la persistencia de datos en una base de datos NoSQL y utilizando Maven como gestor de proyectos para la administración de dependencias."
+      "summary": "Estoy liderando el proyecto “Plataforma web para la gestión de pruebas psicológicas MoCA dirigida al programa de Psicología de la Universidad Católica de Pereira.” Mi rol incluye la identificación de requerimientos, el diseño de la plataforma y desarrollo utilizando Java y Spring Boot 3. Estoy implementando Spring Data MongoDB para la persistencia de datos en una base de datos NoSQL y utilizando Maven como gestor de proyectos para la administración de dependencias."
     },{
       "name" : "Proyecto Personal" ,
       "position" : "Desarrollador Full Stack" ,
       "date": "Septiembre 2024 - Octubre 2024",
-      "summary" : "Desarrollé una plataforma web para la gestión de proyectos personales utilizando Spring Boot 3, empleando el ORM JPA para interactuar con una base de datos relacional en MySQL. Utilicé el módulo Spring Security del framework de Spring junto con JSON Web Token (JWT) para la autenticación y seguridad. El servicio REST es consumido por un cliente en HTML5, Bootstrap y JavaScript, integrando la librería Chart.js para graficar información obtenida de varios endpoints de la API." 
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
+      "summary" : "Desarrollé una plataforma web para la gestión de proyectos personales utilizando Spring Boot 3, empleando el ORM JPA para interactuar con una base de datos relacional en MySQL. Utilicé el módulo Spring Security del framework de Spring junto con JSON Web Token (JWT) para la autenticación y seguridad. El servicio REST es consumido por un cliente en HTML5, Bootstrap y JavaScript, integrando la librería Chart.js para graficar información obtenida de varios endpoints de la API.", 
+      "info" : {
+        "git" : "https://github.com/esteban2502/projectSystem",
+        "linkedin" : "https://www.linkedin.com/posts/juan-esteban-buritica-garcia_springboot-java-jpa-activity-7265476389716324353-MifJ?utm_source=share&utm_medium=member_desktop" 
+      }
+      },{
+        "name" : "Proyecto Academico",
+        "position" : "Desarrollador Full Stack",
+        "date" : "Marzo 2024 - Mayo 2024",
+        "summary" : "Desarrollé una aplicación en Java SE para gestionar el acceso a la biblioteca de la Universidad Católica de Pereira, utilizando JDBC y MySQL como base de datos. La aplicación implementa el paradigma de Programación Orientada a Objetos (POO) y sigue el patrón Modelo-Vista-Controlador (MVC).",
+        "info" : {
+          "git" : "https://github.com/esteban2502/libraryUCP",
+          "linkedin" : "https://www.linkedin.com/posts/juan-esteban-buritica-garcia_gestiaejnbibliotecaria-proyectosoftware-tecnologaeda-activity-7208525897790820352-SZUF?utm_source=share&utm_medium=member_desktop"
+        }
+      }],
+   
     "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Developmen",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
+      "institution": "Universidad Católica de Pereira",
+      "area": "Tecnología en Desarrollo de Software",
+      "date": "Febrero 2023 - Noviembre 2025"
+    },{
+      "institution": "Udemy",
+      "area": "Curso de Spring 6 y Spring Boot 3",
+      "date": "Noviembre 2024 - Actual"
+    },
+    {
+      "institution": "Udemy",
+      "area": "Curso de JavaScript",
+      "date": "Agosto 2024 - Octubre 2024"
+    },
+    {
+      "institution": "Código Facilito",
+      "area": "Curso Profesional de Java",
+      "date": "Abril 2024 - Mayo 2024"
+
+    },
+    {
+      "institution": "Udemy",
+      "area": "Curso de Microservicios con Docker y Kubernetes",
+      "date": "Enero 2024 - Actual"
+    }
+
+  ],
     "awards": [{
       "title": "Award",
       "date": "2014-11-01",
