@@ -3,7 +3,7 @@
       "name": "Juan Esteban Buritica Garcia",
       "label": "Desarrollador Backend",
       "email": "john@gmail.com",
-      "img" : "https://esteban2502.github.io/public/images/fotoPortafolioRecortada.png",
+      "img" : "/estebanPortafolio.github.io/images/fotoPortafolioRecortada.png",
       "summary": "Desarrollador de software con experiencia en Java, Spring Boot y bases de datos, especializado en el desarrollo de aplicaciones web y servicios REST.",
       "profiles": [
       {
