@@ -1,0 +1,31 @@
+---
+import {basics} from '../languages/es.json';
+const {profiles } = basics;
+---
+<footer class="container-fluid">
+    <div class="container d-md-flex gap-3">
+        <p class="mx-2">Correo : juanes9001@gmail.com</p>
+        <a href={profiles[0].url} target="_blank"><i class="bi bi-linkedin small mx-2"></i>Linkedin</a>
+    </div>
+</footer>
+
+<style>
+    footer{
+        min-height: 40px;
+        background-color: var(--navBg);
+        padding: 10px;
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--secondaryText);
+    }
+
+    a:hover{
+        color: var(--strongerText);
+    }
+
+    footer p{
+        color: var(--secondaryText);
+    }
+</style>
