@@ -42,7 +42,7 @@
         "linkedin" : "https://www.linkedin.com/posts/juan-esteban-buritica-garcia_springboot-java-jpa-activity-7265476389716324353-MifJ?utm_source=share&utm_medium=member_desktop" 
       }
       },{
-        "name" : "Proyecto Academico",
+        "name" : "Proyecto Académico",
         "position" : "Desarrollador Full Stack",
         "date" : "Marzo 2024 - Mayo 2024",
         "summary" : "Desarrollé una aplicación en Java SE para gestionar el acceso a la biblioteca de la Universidad Católica de Pereira, utilizando JDBC y MySQL como base de datos. La aplicación implementa el paradigma de Programación Orientada a Objetos (POO) y sigue el patrón Modelo-Vista-Controlador (MVC).",
